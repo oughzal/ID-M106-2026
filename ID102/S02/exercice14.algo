@@ -1,0 +1,16 @@
+algorithme exercice14
+
+variables
+    n,s,r : entier
+
+debut
+    ecrire("Donner un nombre : ")
+    lire(n)
+    s = 0
+    r = n 
+    tantque r !=0 faire
+        s = s + (r %10)
+        r = r div 10
+    fintantque
+    ecrireln("S = ",s)
+fin

@@ -1,0 +1,14 @@
+algorithme exercice16
+variables
+    n,d,i : entier
+debut
+    ecrire("Donner le numérateur : ")
+    lire(n)
+    ecrire("Donner le dénominateur : ")
+    lire(d)
+    i = si n > d alors d sinon n
+    tantque n%i !=0 ou d%i !=0 faire
+        i = i - 1
+    fintantque
+    ecrire(n,"/",d," = ",n div i,"/",d div i)
+fin
