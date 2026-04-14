@@ -1,0 +1,18 @@
+algorithme exercice3
+
+variables
+    c : caractère
+
+debut
+    ecrire("Donner un caractère : ")
+    lire(c)
+    si c >= 'a' et c <= 'z' alors
+        ecrire("Caractère minuscule")
+    sinonSi c >= 'A' et c <= 'Z' alors
+        ecrire("Caractère majuscule")
+    sinonSi c >= '0' et c <= '9' alors
+        ecrire("Chiffre")
+    sinon
+        ecrire("Caractère Symbole")
+    FinSi
+fin

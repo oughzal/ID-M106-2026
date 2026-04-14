@@ -1,0 +1,16 @@
+algorithme exercice1
+
+variables
+    t :réel
+
+debut
+    ecrire("Donner une température en degrés Celsius : ")
+    lire(t)
+    si t <0 alors 
+        ecrireln("Solide")
+    sinonSi t<100 alors
+        ecrireln("Liquide")
+    sinon
+        ecrireln("Gazeux")
+    finSi
+fin

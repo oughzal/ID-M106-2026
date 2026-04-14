@@ -1,0 +1,15 @@
+algorithme NomAlgorithme
+
+variables
+    i : entier
+
+debut
+
+    pour i de 1 à 10  faire // i = 2
+        ecrireln("table de multiplication de ",i)
+        pour j de 1 à 10 faire // j = 1
+            ecrireln(i," x ",j,"=",i*j)
+        finPour
+    finPour
+  
+fin

@@ -1,0 +1,22 @@
+algorithme exercice12
+
+variables
+    n,i : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    si n==1 alors
+        ecrireln(n," est un nombre premier")
+    finSi
+    i = 2
+    tantque n mod i !=0 et i < n faire
+        i = i + 1
+    fintantque
+    si i == n alors
+        ecrire(n," est un nombre premier")
+    sinon
+        ecrire(n," n'est pas un nombre premier")
+    finSi
+
+fin

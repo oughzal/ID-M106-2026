@@ -1,0 +1,17 @@
+algorithme exercice7
+
+variables
+    t,h,m,s : entier
+
+debut
+    //Entrée
+    ecrire("donner le nombre de secondes : ")
+    lire(t)
+    //Traitement
+    h = t div 3600
+    t = t % 3600
+    m = t div 60
+    s = t mod 60
+    //Sortie
+    ecrire(h,":",m,":",s)
+fin

@@ -1,0 +1,15 @@
+algorithme exercice1
+
+variables
+    T : Réel
+debut
+    ecrire("Donner la tempétature : ")
+    lire(T)
+    si T <= 0 alors
+        ecrireln("Solide")
+    sinonSi T<100 alors // 
+        ecrireln("Liquide")
+    sinon
+        ecrireln("Gazeux")
+    finSi
+fin

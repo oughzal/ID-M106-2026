@@ -1,0 +1,14 @@
+algorithme exercice9
+
+variables
+    n,i,S : entier
+
+debut
+    ecrire("donner un nombre entier : ")
+    lire(n)
+    s = 0
+    pour i de n à 1 pas -1 faire 
+        s = s + i*i 
+    finPour
+    ecrire("la somme est : ", s)
+fin

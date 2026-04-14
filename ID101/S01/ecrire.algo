@@ -1,0 +1,12 @@
+algorithme NomAlgorithme
+
+var
+    a,b : booléen
+debut
+    a = vrai
+    b = faux
+    a et b 
+    a ou b 
+    
+
+fin

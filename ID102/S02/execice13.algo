@@ -1,0 +1,20 @@
+algorithme exercice13
+
+variables
+    n,s,i : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    s= 0
+    pour i de 1 à n-1 faire
+        si n % i == 0 alors
+            s = s + i
+        finSi
+    finPour
+    si s == n alors
+        ecrire(n," est un nombre parfait")
+    sinon
+        ecrire(n," n'est pas un nombre parfait")
+    finSi
+fin

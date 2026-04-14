@@ -1,0 +1,16 @@
+algorithme NomAlgorithme
+constantes
+    PI : réel = 3.14159
+variables
+    r,s,p : réel
+debut
+    // Entrée
+    ecrire("donner le rayon du cercle : ")
+    lire(r)
+    // Traitement
+    s = PI * r ^ 2
+    p = 2 * PI * r
+    // Sortie
+    ecrireln("la surface du cercle : ", s) 
+    ecrireln("le périmètre du cercle : ", p)
+fin

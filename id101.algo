@@ -1,0 +1,17 @@
+algorithme NomAlgorithme
+const
+    PI : reel = 3.14
+    G : reel = 9.81
+
+ var
+    a,n,m : entier // Z
+    x : réel = 6 // R
+    c : caractère
+    s : chaine
+    b : booleen // vrai ou faux
+debut
+    ecrire("donner a : ")
+    lire(a)
+    ecrireln("a = ",a)
+
+fin

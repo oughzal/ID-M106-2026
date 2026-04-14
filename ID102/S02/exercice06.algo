@@ -1,0 +1,24 @@
+algorithme exercice6
+variables
+    m : entier
+
+debut
+    ecrire("donner le N° du mois : ")
+    lire(m)
+    selon(m)
+        cas 1: ecrireln("Janvier")
+        cas 2: ecrireln("Février")
+        cas 3: ecrireln("Mars")
+        cas 4: ecrireln("Avril")
+        cas 5: ecrireln("Mai")
+        cas 6: ecrireln("Juin")
+        cas 7: ecrireln("Juillet")
+        cas 8: ecrireln("Août")
+        cas 9: ecrireln("Septembre")
+        cas 10: ecrireln("Octobre")
+        cas 11: ecrireln("Novembre")
+        cas 12: ecrireln("Décembre")
+        defaut: ecrireln("N° du mois non valide")
+    finselon
+
+fin

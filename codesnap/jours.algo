@@ -1,0 +1,45 @@
+algorithme NomAlgorithme
+
+variables
+    n : entier
+
+debut
+    ecrire("Donner un nombre : ")
+    lire(n)
+    selon (n)
+        cas 1 :
+            ecrire("Lundi")
+        cas 2 :
+            ecrire("Mardi")
+        cas 3 :
+            ecrire("Mercredi")
+        cas 4 :
+            ecrire("Jeudi")
+        cas 5 :
+            ecrire("Vendredi")
+        cas 6 :
+            ecrire("Samedi")
+        cas 7 :
+            ecrire("Dimanche")
+        defaut: 
+            ecrire("Nombre invalide")
+    finSelon
+
+    si n == 1 alors
+        ecrire("Lundi")
+    sinonSi n == 2 alors
+        ecrire("Mardi")
+    sinonSi n == 3 alors
+        ecrire("Mercredi")
+    sinonSi n == 4 alors
+        ecrire("Jeudi")
+    sinonSi n == 5 alors
+        ecrire("Vendredi")
+    sinonSi n == 6 alors
+        ecrire("Samedi")
+    sinonSi n == 7 alors
+        ecrire("Dimanche")
+    sinon
+        ecrire("Nombre invalide")
+    finSi
+fin

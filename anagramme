@@ -1,0 +1,14 @@
+def isAnagram(s1:str, s2:str) -> bool:
+    if len(s1) != len(s2): return False
+    s = 0
+    for i in range(len(s1)):
+        s ^= ord(s1[i]) ^ ord(s2[i])
+    return s == 0
+
+if __name__ == "__main__":
+    s1 = input("donner le premier mot : ")
+    s2 = input("donner le deuxième mot : ")
+    if isAnagram(s1, s2):
+        print("les deux mots sont des anagrammes")
+    else:
+        print("les deux mots ne sont pas des anagrammes")

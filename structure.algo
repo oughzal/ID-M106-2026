@@ -1,0 +1,17 @@
+algorithme NomAlgorithme 
+    const
+        PI : réel = 3.14159
+
+    var
+        a,b,c : entier
+        y : réel = 5.2
+   
+debut
+    ecrire("donner la valeur de a : ")
+    Lire(a)
+    ecrire("donner b :")
+    lire(b)
+    c = a + b
+    ecrire(a,"+",b,"=",c)
+    
+fin

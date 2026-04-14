@@ -1,0 +1,27 @@
+algorithme NomAlgorithme
+
+variables
+    note,disp : réel
+    redoublant : booléen
+    c : caractère
+
+
+debut
+    ecrire("donner la note de passage : ")
+    lire(note)
+    ecrire("donner la note de disp : ")
+    lire(disp)
+    ecrire("déja redoublant? (O/N) : ")
+    lire(c)
+    redoublant = c == 'O' ou c == 'o'
+
+    si note >= 10 alors
+        ecrireln("Admis")
+    sinonsi note>=9 et disp >= 10 alors
+        ecrireln("Racheté")
+    sinonSi redoublant == vrai alors
+        ecrireln("Eliminé")
+    sinon
+        ecrireln("Redoublant")
+    FinSi
+fin

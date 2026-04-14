@@ -1,0 +1,22 @@
+algorithme exercice1
+
+variables
+    a,b,c : entier
+
+debut
+    //Entrée
+    ecrire("donner la valeur de a : ")
+    lire(a)
+    ecrire("donner la valeur de b : ")
+    lire(b)
+    //traitement
+
+    ecrireln("a=",a," ; b=",b)
+    c = b
+    b = a
+    a = c
+
+    //sortie
+    ecrireln("a=",a," ; b=",b)
+
+fin

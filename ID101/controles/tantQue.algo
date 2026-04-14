@@ -1,0 +1,14 @@
+algorithme NomAlgorithme
+
+variables
+    pass,pwd : chaine
+
+debut
+    pass = "admin"
+    pwd = "admin"
+    tantque pass != pwd faire
+        ecrire("password : ")
+        lire(pwd)
+    finTantque
+    ecrireln("Bienvenue !")
+fin

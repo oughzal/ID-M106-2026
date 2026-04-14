@@ -1,0 +1,15 @@
+algorithme NomAlgorithme
+
+variables
+    pass,pwd : chaine
+
+debut
+    pass = "admin"
+    pwd = ""
+    repeter
+        ecrire("password : ")
+        lire(pwd)
+        
+    jusqua pass == pwd
+    ecrireln("Bienvenue !")
+fin

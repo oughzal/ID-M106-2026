@@ -1,0 +1,15 @@
+algorithme exercice2
+
+variables
+    note : réel
+
+debut
+    ecrire("Donner la note : ")
+    lire(note)
+    si note >=0 et note <=20 alors
+        ecrire("note valide")
+    sinon
+        ecrire("note invalide")
+    FinSi
+
+fin

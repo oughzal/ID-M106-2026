@@ -1,0 +1,22 @@
+algorithme exercice4
+variables
+    a,b,c,d,x1,x2 : réel
+debut
+    ecrire("donner a : ")
+    lire(a)
+    ecrire("donner b : ")
+    lire(b)
+    ecrire("donner c : ")
+    lire(c)
+    d <- b*b - 4*a*c
+    si d < 0 alors
+        ecrireln("pas de solution")
+    sinonSi d == 0 alors
+        x1 = -b / (2*a)
+        ecrireln("Une solution : ", x1)
+    sinon
+        x1 = (-b + racine(d)) / (2*a)
+        x2 = (-b - racine(d)) / (2*a)
+        ecrireln("Deux solutions : ", x1, " et ", x2)
+    finSi
+fin

@@ -1,0 +1,16 @@
+algorithme NomAlgorithme
+
+variables
+    a,b : réel
+
+debut
+    a = 10
+    si a >0 alors
+        ecrireln("a est positif")
+    sinonSi a = 0 alors
+        ecrireln("a est nul")
+    sinon
+        ecrireln("a est négatif")
+    finSi
+    ecrireln("fin du programme")
+fin

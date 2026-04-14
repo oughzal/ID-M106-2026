@@ -1,0 +1,15 @@
+algorithme exercice7
+
+variables
+    a : entier
+
+debut
+    ecrire("Donner l'année : ")
+    lire(a)
+    si (a mod 400 == 0) ou (a mod 4 == 0 et a mod 100 != 0) alors
+        ecrire("L'année ", a, " est bissextile")
+    sinon
+        ecrire("L'année ", a, " n'est pas bissextile")
+    finSi
+
+fin

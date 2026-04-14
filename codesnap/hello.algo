@@ -1,0 +1,10 @@
+algorithme NomAlgorithme
+
+variables
+    i : entier
+
+debut
+    pour i de 1 à 10 pas 2 faire
+        ecrireln("hello ", i)
+    finPour
+fin

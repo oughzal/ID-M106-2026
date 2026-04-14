@@ -1,0 +1,21 @@
+algorithme NomAlgorithme
+variables 
+    note,dis : réel
+    redoublant : booléen
+debut
+    ecrire("Donner note : ")
+    lire(note)
+    ecrire("Donner discipline : ")
+    lire(dis)
+    redoublant = faux
+    si note >=10 alors
+        ecrire("Admis")
+    sinonSi note>=9 et dis>=10 alors
+        ecrire("Admis par discipline")
+    sinonSi  redoublant = vrai alors
+        ecrire("Eliminé")
+    sinon
+        ecrire("Redoublement")
+    finSi
+
+fin

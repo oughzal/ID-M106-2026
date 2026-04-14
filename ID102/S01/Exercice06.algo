@@ -1,0 +1,22 @@
+algorithme exercice6
+
+variables
+    a,b,s,st,m,d : réel
+
+debut
+    //Entrée
+    ecrire("donner la valeur de a : ")
+    lire(a)
+    ecrire("donner la valeur de b : ")
+    lire(b)
+    //traitement
+    s = a + b
+    st = a -b 
+    m = a * b
+    d = a / b // b # 0
+    //sortie
+    ecrireln("somme: ", s)
+    ecrireln("différence: ", st)
+    ecrireln("produit: ", m)
+    ecrireln("division: ", d)
+fin

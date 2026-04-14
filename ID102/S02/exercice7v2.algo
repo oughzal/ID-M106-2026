@@ -1,0 +1,14 @@
+algorithme NomAlgorithme
+
+variables
+    
+
+debut
+    si condition1 alors
+        si condition2 alors
+            instruction1
+        sinon
+            instruction2
+        finSi
+    sinon
+fin

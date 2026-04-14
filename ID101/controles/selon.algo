@@ -1,0 +1,51 @@
+algorithme NomAlgorithme
+
+variables
+    n : entier
+
+debut
+    ecrire("donner le N° du mois : ")
+    lire(n)
+    si n == 1 alors
+        ecrireln("Janvier")
+    sinonSi n == 2 alors
+        ecrireln("Février")
+    sinonSi n == 3 alors
+        ecrireln("Mars")
+    sinonSi n == 4 alors
+        ecrireln("Avril")
+    sinonSi n == 5 alors
+        ecrireln("Mai")
+    sinonSi n == 6 alors
+        ecrireln("Juin")
+    sinonSi n == 7 alors
+        ecrireln("Juillet")
+    sinonSi n == 8 alors
+        ecrireln("Août")
+    sinonSi n == 9 alors
+        ecrireln("Septembre")
+    sinonSi n == 10 alors
+        ecrireln("Octobre")
+    sinonSi n == 11 alors
+        ecrireln("Novembre")
+    sinonSi n == 12 alors
+        ecrireln("Décembre")
+    sinon
+        ecrireln("Mois invalide")
+
+    selon (n)
+        cas 1 : ecrireln("Janvier")
+        cas 2 : ecrireln("Février")
+        cas 3 : ecrireln("Mars")
+        cas 4 : ecrireln("Avril")
+        cas 5 : ecrireln("Mai")
+        cas 6 : ecrireln("Juin")
+        cas 7 : ecrireln("Juillet")
+        cas 8 : ecrireln("Août")
+        cas 9 : ecrireln("Septembre")
+        cas 10 : ecrireln("Octobre")
+        cas 11 : ecrireln("Novembre")
+        cas 12 : ecrireln("Décembre")
+        sinon : ecrireln("Mois invalide")
+
+fin

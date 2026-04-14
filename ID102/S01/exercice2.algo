@@ -1,0 +1,19 @@
+algorithme exercice2
+constantes
+    TVA : réel = 0.2
+variables
+    Q : entier
+    PU,TTC,HT : réel
+
+debut
+    // Entrée
+    ecrire("donner la quantité : ")
+    lire(Q)
+    ecrire("donner le prix unitaire : ")
+    lire(PU)
+    // Traitement
+    HT = Q * PU
+    TTC = HT * (1 + TVA)
+    // Sortie
+    ecrireln("le prix TTC : ", TTC)
+fin

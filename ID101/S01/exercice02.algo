@@ -1,0 +1,18 @@
+algorithme NomAlgorithme
+constantes
+    TVA : réel = 0.2
+variables
+    PU,TTC : réel
+    Qt : entier
+
+debut
+    // Entrée
+    ecrire("donner la quantité : ")
+    lire(Qt)
+    ecrire("donner le prix unitaire : ")
+    lire(PU)
+    // Traitement
+    TTC = Qt * PU * (1 + TVA)
+    // Sortie
+    ecrireln("le prix TTC : ", TTC)
+fin
