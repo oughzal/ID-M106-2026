@@ -1,0 +1,24 @@
+algorithme exercice8
+
+variables
+    j,m,a : entier
+
+debut
+    ecrire("donner le jour : ")
+    lire(j)
+    ecrire("donner le mois : ")
+    lire(m)
+    ecrire("donner l'année : ")
+    lire(a)
+    si j<1 ou j>31 ou m<1 ou m>12  alors
+        ecrire("date invalide")
+    sinonsi j==31 et (m==2 ou m==4 ou m==6 ou m==9 ou m==11) alors
+        ecrire("date invalide")
+    sinonsi m==2 et j==30 alors
+        ecrire("date invalide")
+    sinonsi j==29 et m==2 et (a%4!=0 ou (a%100==0 et a%400!=0)) alors
+        ecrire("date invalide")
+    sinon
+        ecrire("date valide")
+    FinSi
+fin

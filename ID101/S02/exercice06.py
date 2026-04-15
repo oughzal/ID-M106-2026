@@ -1,0 +1,16 @@
+m = int(input("donner le numéro du mois : "))
+
+match m: # switch m in other languages
+    case 1: print("Janvier")
+    case 2: print("Février")
+    case 3: print("Mars")
+    case 4: print("Avril")
+    case 5: print("Mai")
+    case 6: print("Juin")
+    case 7: print("Juillet")
+    case 8: print("Août")
+    case 9: print("Septembre")
+    case 10: print("Octobre")
+    case 11: print("Novembre")
+    case 12: print("Décembre")
+    case _: print("Numéro de mois invalide")

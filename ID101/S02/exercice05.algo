@@ -1,0 +1,45 @@
+algorithme exercice5
+
+variables
+    a,b : entier
+    op : caractère
+
+debut
+    ecrire("donner a : ")
+    lire(a)
+    ecrire("donner b : ")
+    lire(b)
+    ecrire("donner l'opération (+, -, *, /) : ")
+    lire(op)
+    si op== '+' alors
+        ecrire(a," + ",b," = ",a+b)
+    sinonsi op== '-' alors
+        ecrire(a," - ",b," = ",a-b)
+    sinonsi op== '*' alors
+        ecrire(a," * ",b," = ",a*b)
+    sinonsi op== '/' alors
+        si b != 0 alors
+            ecrire(a," / ",b," = ",a/b)
+        sinon
+            ecrire("division par zéro impossible")
+        finsi
+    sinon
+        ecrire("opération non valide")
+      finsi
+        ecrireln()
+    selon(op)
+        cas '+': ecrire(a,"+",b,"=",a+b)
+        cas '-': ecrire(a,"-",b,"=",a-b)
+        cas '*': ecrire(a,"*",b,"=",a*b)
+        cas '/': 
+            si b != 0 alors
+                ecrire(a,"/",b,"=",a/b)
+            sinon
+                ecrire("division par zéro impossible")
+            finsi
+        defaut: 
+            ecrire("opération non valide")
+    finselon
+
+
+fin
