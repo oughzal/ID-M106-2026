@@ -1,0 +1,14 @@
+algorithme exercice11
+
+variables
+    n,i,s : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    s = 0
+    pour i de n à 0 pas -2 faire
+        s = s + i
+    finPour
+    ecrire("s =", s)
+fin

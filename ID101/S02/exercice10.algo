@@ -1,0 +1,14 @@
+algorithme exercice10
+
+variables
+    n,i,f : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    f = 1
+    pour i de 1 à n faire
+        f = f * i
+    finPour
+    ecrire( n, "! = ", f)
+fin

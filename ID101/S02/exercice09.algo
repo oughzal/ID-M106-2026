@@ -1,0 +1,14 @@
+algorithme exercice9
+
+variables
+    n,i,s : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    s= 0
+    pour i de n à 1 pas -1 faire // i = 6
+        s = s + i*i // s =  21 +6*6 = 57
+    finPour
+    ecrireln("s=",s)
+fin
