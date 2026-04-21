@@ -1,0 +1,11 @@
+algorithme NomAlgorithme
+
+fonction surface(b : réel,h: réel) : réel
+    
+début
+    retourner b*h/2
+Fin
+
+debut
+    ecrireln(surface(5,8))
+fin

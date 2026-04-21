@@ -1,0 +1,15 @@
+algorithme NomAlgorithme
+procedure tableMultiplication(n : entier)
+var i : entier
+debut
+    ecrireln("table de multiplication de ", n )
+    ecrireln("---------------------------" )
+    pour i de 1 à 10 faire
+        ecrireln(n," x ", i , " = ", n*i)
+    finpour
+fin
+
+debut
+    tableMultiplication(8)
+    tableMultiplication(5)
+fin

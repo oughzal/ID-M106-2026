@@ -1,0 +1,19 @@
+algorithme exercice2
+var i : entier
+procedure valeurPair(n:entier , m: entier)
+
+début
+    pour i de n à m faire
+        si i % 2 == 0 alors
+            ecrire(i , ", ")
+        FinSi
+    FinPour
+Fin
+    
+
+debut
+    i = 2
+    valeurPair(15,35)
+    ecrireln()
+    ecrireln("i=",i)
+fin

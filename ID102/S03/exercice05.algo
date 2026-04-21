@@ -1,0 +1,39 @@
+algorithme NomAlgorithme
+fonction max3(a:réel,b:réel,c:réel) : réel
+
+ début
+    si a > b alors
+        si a > c alors
+            retourner a
+        sinon
+            si b > c alors
+                retourner b
+            sinon
+                retourner c
+            finSi 
+        FinSi
+    sinon // a < b
+        si b > c alors
+            retourner b
+        sinon 
+            retourner c
+        finsi
+    FinSi
+ Fin
+
+ fonction max3v2(a:réel,b:réel,c:réel) : réel
+ var m : réel
+ début
+    m = a 
+    si b > m alors 
+        m = b
+    FinSi
+    si c > m alors
+        m = c
+    finSi
+    retourner m 
+ Fin
+           
+debut
+    ecrireln(max3(9,14,22))
+fin

@@ -1,0 +1,17 @@
+algorithme NomAlgorithme
+
+fonction valeurAbs(x : réel) : réel
+    
+début
+    si x>=0 alors
+        retourner x
+    sinon
+        retourner -x
+    finSi
+     retourner si x>=0 alors x sinon -x
+Fin
+
+debut
+    ecrireln(valeurAbs(6))
+    ecrireln(valeurAbs(-3))
+fin

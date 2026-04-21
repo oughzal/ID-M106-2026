@@ -1,0 +1,23 @@
+algorithme NomAlgorithme
+ fonction double(n : entier) : entier
+ variables
+    r : entier // viable locale
+ debut
+     r = n * 2
+     retourner r
+ fin
+
+    fonction somme(a : entier, b : entier) : entier
+    debut
+        retourner a + b
+    fin
+variables
+    a, b,c : entier // viable globale
+
+debut
+    a = 5
+    b = double(a) // invoquer la fonction
+    c = somme(a, b) // invoquer la fonction arguments
+    ecrireln(b) // affiche 10
+    ecrireln(c) // affiche 15
+fin

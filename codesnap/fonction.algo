@@ -1,0 +1,13 @@
+Algorithme ExempleRecursif
+Fonction Fact(n : entier) : entier
+Début
+    Si n == 0 Alors
+        Retourner 1
+    Sinon
+        Retourner n * Fact(n - 1)
+    FinSi
+Fin
+
+Début
+    Ecrire(Fact(4))
+Fin
