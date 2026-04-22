@@ -10,7 +10,6 @@ début
     FinPour
 Fin
     
-
 debut
     i = 2
     valeurPair(15,35)

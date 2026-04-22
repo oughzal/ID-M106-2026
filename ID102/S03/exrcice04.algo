@@ -1,4 +1,4 @@
-algorithme NomAlgorithme
+algorithme exercice4
 
 fonction surface(b : réel,h: réel) : réel
     

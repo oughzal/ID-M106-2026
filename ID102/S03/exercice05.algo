@@ -1,4 +1,4 @@
-algorithme NomAlgorithme
+algorithme exercice5
 fonction max3(a:réel,b:réel,c:réel) : réel
 
  début

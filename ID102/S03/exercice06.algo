@@ -1,4 +1,4 @@
-algorithme NomAlgorithme
+algorithme exercice6
 procedure tableMultiplication(n : entier)
 var i : entier
 debut

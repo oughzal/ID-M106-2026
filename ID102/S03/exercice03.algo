@@ -1,4 +1,4 @@
-algorithme NomAlgorithme
+algorithme exercice3
 
 fonction valeurAbs(x : réel) : réel
     

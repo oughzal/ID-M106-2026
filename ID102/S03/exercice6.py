@@ -1,3 +1,4 @@
+# exercice 6
 def tableMultiplication(n):
     print(f"table de multiplication de {n}")
     for i in range(1,11):

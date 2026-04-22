@@ -1,3 +1,4 @@
+# exercice 5
 def max3(a,b,c):
     m = a
     if b > m : 
