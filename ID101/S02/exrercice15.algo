@@ -1,0 +1,15 @@
+algorithme exercice14
+
+variables
+    n,i,r : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    r = 0
+    tantque n>0 faire
+        r = r*10 + n % 10
+        n = n div 10
+    fintantque
+    ecrireln("l'inverse est  ",r)
+fin

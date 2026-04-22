@@ -1,0 +1,21 @@
+algorithme exercice12
+
+variables
+    n,i : entier
+
+debut
+    ecrire("Donner un nombre  :")
+    lire(n)
+    si n==1 alors
+        ecrireln(n , " est un nombre premier")
+    FinSi
+    i = 2 
+    tantque n % i != 0 et i < n faire
+        i = i + 1
+    fintantque
+    si i== n alors
+        ecrireln(n, " est un nombre premier")
+    sinon
+        ecrireln(n," n'est pas un nombre premier")
+    finSi
+fin
