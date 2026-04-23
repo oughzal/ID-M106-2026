@@ -1,8 +1,6 @@
 algorithme exercice12
-
 variables
     n,i : entier
-
 debut
     ecrire("Donner un nombre  :")
     lire(n)

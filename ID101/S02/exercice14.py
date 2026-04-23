@@ -1,3 +1,5 @@
+# exercice 14
+
 n = int(input("donner un nombre : "))
 s = 0
 while n > 0 :

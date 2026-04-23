@@ -1,8 +1,6 @@
 algorithme exercice13
-
 variables
     n,i,s : entier
-
 debut
     ecrire("Donner un nombre : ")
     lire(n)
@@ -10,12 +8,12 @@ debut
     pour i de 1 à n-1 faire
         si n % i == 0 alors
             s = s + i
-        Finsi
+        FinSi
     finpour
     si n == s alors
         ecrireln(n," est un nombre parfait")
     sinon
         ecrireln(n," n'est un nombre parfait")
-    finsi
+    finSi
 
 fin

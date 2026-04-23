@@ -1,3 +1,4 @@
+# exercice 13
 n = int(input("Donner un nombre : "))
 s = 0
 for i in range(1,n):
