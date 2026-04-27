@@ -1,0 +1,12 @@
+algorithme exercice8
+
+fonction estPair(n: entier): booléen
+    
+debut
+    retourner n mod 2 == 0 
+Fin
+
+debut
+    ecrireln(estPair(5))
+    ecrireln(estPair(8))
+fin

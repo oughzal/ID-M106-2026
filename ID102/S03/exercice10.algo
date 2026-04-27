@@ -1,0 +1,15 @@
+algorithme exercice10
+
+fonction fibonacci(n:entier):entier
+début
+    si n<=1 alors
+        retourner n
+    sinon
+         retourner fibonacci(n-1) + fibonacci(n-2)
+    FinSi
+Fin 
+    
+
+debut
+    ecrireln(fibonacci(20))
+fin
