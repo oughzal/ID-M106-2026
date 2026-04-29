@@ -1,0 +1,21 @@
+Algorithme Matrice
+
+Variables
+    M : tableau[3][3] de entier
+    i, j : entier
+
+Début
+
+    Pour i de 0 à 2 Faire
+        Pour j de 0 à 2 Faire
+            Lire M[i][j]
+        FinPour
+    FinPour
+
+    Pour i de 0 à 2 Faire
+        Pour j de 0 à 2 Faire
+            Ecrire M[i][j]
+        FinPour
+    FinPour
+
+Fin
