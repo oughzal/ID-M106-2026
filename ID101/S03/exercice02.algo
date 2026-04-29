@@ -1,0 +1,16 @@
+algorithme exercice2
+
+procedure valeurPair(m:entier,n:entier)
+var i : entier
+début
+    pour i de m à n faire
+        si i%2==0 alors
+            ecrire(i,"\t")
+        finSi
+    FinPour
+Fin
+    
+
+debut
+    valeurPair(5,200)
+fin

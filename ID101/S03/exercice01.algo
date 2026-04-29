@@ -1,0 +1,13 @@
+algorithme exercice1
+
+fonction Adulte(a:entier) :chaîne
+
+début
+     retourner si a>18 alors "Adulte" sinon "Mineur"
+fin
+    
+
+debut
+    ecrireln(adulte(15))
+    ecrireln(adulte(25))
+fin

@@ -1,0 +1,11 @@
+algorithme exercice3
+
+fonction valeurAbs(x:réel):réel
+début
+    retourner si x>=0 alors x sinon -x
+fin
+
+debut
+    ecrireln(valeurAbs(6))
+    ecrireln(valeurAbs(-6))
+fin
