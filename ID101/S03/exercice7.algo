@@ -9,8 +9,7 @@ début
     finPour
     retourner s
 Fin
-    
-
+  
 debut
     ecrireln(multiplication(5,6))
 fin

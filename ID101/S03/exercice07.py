@@ -4,4 +4,6 @@ def multiplication(a,b):
     for i in range(b):
         s += a
     return s
+
+
 print(multiplication(9,7))
