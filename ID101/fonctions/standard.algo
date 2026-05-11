@@ -1,0 +1,11 @@
+algorithme standardFunctions
+
+
+debut
+    ecrireln(longueur("ID101"))
+    ecrireln(racine(100))
+    ecrireln(sin(3.14))
+    ecrireln(aleatoire(0,1000)
+    
+
+fin

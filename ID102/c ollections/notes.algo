@@ -1,0 +1,16 @@
+algorithme notes
+
+variables
+    notes: tableau[5] de entier
+    M: tableau[5][5] de entier
+    
+    i : entier
+
+debut
+    M[0][0] = 1
+    M[0][1] = 2
+    notes = [1,2,3,4,5]
+    ecrireln(notes[0])
+    notes[0] = 10
+    ecrireln("notes :",notes)
+fin

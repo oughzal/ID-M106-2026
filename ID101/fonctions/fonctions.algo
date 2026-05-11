@@ -1,0 +1,19 @@
+algorithme fonctions
+variables
+    a,b,c : réel
+
+fonction double(x: réel) : réel // définition de la fonction double
+debut
+    retourner x * 2
+Fin
+
+    
+
+debut // programme principal : main
+    ecrireln(double(5)) // argument 5, résultat 10
+    a = 8
+    b = 3
+    c = double(a) + double(b) + double(double(a))
+    ecrireln(c)
+    
+fin

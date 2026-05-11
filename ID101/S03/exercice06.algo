@@ -1,0 +1,37 @@
+algorithme exercice6
+
+procedure tableMultiplication(n:entier)
+var i : entier
+début
+    ecrireln("table de multiplication de ", n , " : ")
+    pour i de 1 à 10 faire
+            ecrireln(n , " x ", i , " = ", n*i)
+    FinPour
+    
+fin
+
+procedure tabMultiplication()
+var i,j : entier
+debut
+    pour i de 1 à 10 faire
+        pour j de 1 à 10 faire
+            ecrire(i*j,"\t")
+        FinPour
+        ecrireln()
+    Finpour
+fin
+
+
+procedure tabMultiplication2()
+var i,j : entier
+debut
+    pour i de 1 à 10 faire
+    ecrireln("table de multiplication de ", i , " : ")
+    pour j de 1 à 10 faire
+            ecrireln(i , " x ", j , " = ", j*i)
+    FinPour
+    Finpour
+fin
+debut
+    tabMultiplication2()
+fin

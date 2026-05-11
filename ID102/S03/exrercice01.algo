@@ -1,0 +1,12 @@
+algorithme exercice1
+fonction adulte(age : entier) : chaine
+debut
+    si age >= 18 alors
+        retourner "adulte"
+    sinon
+        retourner "mineur"
+    finsi
+fin
+debut
+    ecrireln(adulte(12))
+fin

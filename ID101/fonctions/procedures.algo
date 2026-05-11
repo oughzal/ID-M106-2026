@@ -1,0 +1,17 @@
+algorithme procedures
+var i : entier // variable globale à l'algorithme
+procedure etoiles(n : entier)
+var i : entier // variable locale à la procédure
+debut
+    pour i de 1 à n faire
+        ecrire("*")
+    finpour
+    ecrireln("")
+fin
+    
+
+debut
+    pour i de 1 à 5 faire
+        etoiles(i)
+    finpour
+fin

@@ -1,0 +1,15 @@
+algorithme exercice11
+fonction partieEntier(x:réel):entier
+var n : entier
+début
+    n=0
+    tantque x>=n faire
+        n = n +1
+    fintantque
+    retourner n-1
+    retourner versEntier(x)
+Fin
+
+debut
+    ecrireln(partieEntier(16.36))
+fin

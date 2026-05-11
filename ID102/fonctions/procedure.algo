@@ -1,0 +1,19 @@
+algorithme NomAlgorithme
+procedure etoiles(n : entier)
+var i : entier
+debut
+    pour i de 1 à n faire
+        ecrire("*")
+    finpour
+    ecrireln()
+fin
+variables
+    n, i : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+    pour i de 1 à n faire
+        etoiles(i)
+    finpour
+fin

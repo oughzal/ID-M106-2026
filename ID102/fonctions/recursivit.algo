@@ -1,0 +1,9 @@
+algorithme NomAlgorithme
+var i : entier
+debut
+    ecrireln("start")  
+    pour i de 1 à 10^9 faire
+        // ne rien faire
+    finpour
+    ecrireln("done")
+fin

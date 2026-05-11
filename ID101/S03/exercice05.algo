@@ -1,0 +1,17 @@
+algorithme exercice5
+
+fonction max3(a:réel,b:réel,c:réel) : réel
+var m : réel
+début
+    si a>=b et a>= c alors
+        retourner a
+    sinonSi b > c alors
+        retourner b
+    sinon
+        retourner c
+    finSi 
+fin
+
+debut
+    ecrireln(max3(1 5,12,9))
+fin
