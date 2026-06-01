@@ -1,0 +1,2 @@
+Remove-Item fichier.txt
+

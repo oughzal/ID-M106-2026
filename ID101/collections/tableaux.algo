@@ -1,0 +1,21 @@
+algorithme tableaux
+
+variables
+    notes : tableau[5] de reel
+    M  : tableau[3][4] de entier
+
+debut
+
+   notes = [12.5, 15.0, 9.0, 18.0, 14.5]
+    ecrireln("notes : ",notes)
+
+    pour i de 0 à 4 faire
+        ecrireln("note ", i, " : ", notes[i])
+    finPour
+
+    pour i de 0 à 2 faire
+        pour j de 0 à 3 faire
+            M[i][j] = i + j
+        finPour
+    finPour
+fin
