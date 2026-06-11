@@ -1,1 +1,1 @@
-(Get-ChildItem -Path C:\Users\omar -Recurse  -Filter *.pdf -File ).name
+Get-Service | Where-Object {$_.Status -eq "Running"}

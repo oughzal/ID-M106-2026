@@ -1,6 +1,1 @@
-# ecrire -> print
-# lire -> input
-a = int(input("donner a : "))
-b = float(input("donner b : "))
-s = input("donner s : ")
-print("a =", a)
+notes = [12, 15, 8, 17, 10, 14, 6, 19]
